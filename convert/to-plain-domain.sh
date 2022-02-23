@@ -8,6 +8,6 @@ fi
 
 newname="plain-$1"
 
-cat $filename | awk '$1 == "0.0.0.0" { print $2 }' >$newname
+cat $filename | awk '$1 == "0.0.0.0" { print $2 }' | grep -v -f exclude-$1 >$newname
 
 echo "Converted $filename to $newname"
