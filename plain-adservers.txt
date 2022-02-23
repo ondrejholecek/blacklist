@@ -10824,7 +10824,6 @@ goodworldwide-d.openx.net
 goog.applovin.com
 googleads2.g.doubleclick.net
 googleads4.g.doubleclick.net
-googleadservices.com
 googleads.g.doubleclick.net
 google-analytics.bi.owox.com
 google-analytics.com
