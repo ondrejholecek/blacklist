@@ -101,7 +101,7 @@ These host files for Unix-like systems, the list contain domains that serve ads,
   
 | Host File | Domain Count | Description | Update Frequency | Raw Link | Mirror Link |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| adservers.txt | 42,292 | A reliable host file containing advertising domains, trackers, malwares and other unsafe domains. I collect these domains from my Pi-Hole and I test them for a few days before adding to the list. You can request additional domains or report existing domains via [issues](https://github.com/anudeepND/blacklist/issues) tab. | Frequently | [link](https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt) | [link](https://hosts.anudeep.me/mirror/adservers.txt) |
+| adservers.txt | 42,536 | A reliable host file containing advertising domains, trackers, malwares and other unsafe domains. I collect these domains from my Pi-Hole and I test them for a few days before adding to the list. You can request additional domains or report existing domains via [issues](https://github.com/anudeepND/blacklist/issues) tab. | Frequently | [link](https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt) | [link](https://hosts.anudeep.me/mirror/adservers.txt) |
 | facebook.txt | 4,000 | Host file containing domains related to facebook.com. This file doesn't block other Facebook products such as WhatsApp, Instagram etc. If you want to block all Facebook related services, use this [list](https://www.github.developerdan.com/hosts/lists/facebook-extended.txt) created by [lightswitch05](https://github.com/lightswitch05/hosts). | Occasionally | [link](https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt) | [link](https://hosts.anudeep.me/mirror/facebook.txt) |
 | coinminer.txt | 5,939 | This host file was created when JavaScript miners were added to torrent sites. Most of the domain in this file are still active today. I recommend you to use [CoinBlockerLists](https://gitlab.com/ZeroDot1/CoinBlockerLists) by ZeroDot1 along with this list. | Discontinued | [link](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [link](https://hosts.anudeep.me/mirror/CoinMiner.txt) |
   
@@ -177,6 +177,8 @@ This host file blocks trackers regardless of whether it collects PII (Personally
 | s0.2mdn.net <br>  c.evidon.com | Unable to play videos on several news and entertainment sites. Some of the affected sites are: [techrepublic](https://techrepublic.com) and [zdnet](www.zdnet.com). s0.2mdn.net is blocked in most of the hostfiles since it's a known tracker. | Videos in news and entertainment sites |
 | s.zkcdn.net | Unable to play content on DirecTV Now. This domain is also used to serve ads, measure impressions etc. | DirecTV Now |
 | graph.instagram.com | The Instagram Graph API allows Instagram Professional accounts — Businesses and Creators — to use your app to manage their presence on Instagram. However, it is also used to track users on the Internet. Developers who use Facebook/IG APIs should whitelist the domain. | Instagram and Facebook |
+| tags.tiqcdn.com |  Paramount+ is not working on SkyQ Receiver in Germany (https://github.com/anudeepND/blacklist/issues/207). This domain is also used to serve tracking sripts, measure impressions etc. |  Paramount+ |
+
 
 ## <ins>Stargazers over time</ins>
 <br />
